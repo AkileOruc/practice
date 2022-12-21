@@ -1,0 +1,199 @@
+soru 1
+
+Bu ödevde bir alışveriş listesi ve fiyatlar oluşturmak için bir program yazacaksınız.
+//  kullanıcıdan 3 adet ürün ve ardından fiyatını girmesini isteyecek ve toplam fiyatı hesaplayıp rapor olarak göstereceksiniz.
+
+// -Declare 4 String değişken item1, item2, item3, rapor.
+
+// -fiyat1, fiyat2, fiyat3, totalPrice çift değişkenlerini bildir
+
+// -Scanner adında bir Scanner nesnesi oluşturun.
+
+       Örnek:
+
+Öğe1'i ve fiyatını girin:
+       Domates
+ 5.5
+*****************************************
+
+soru 2
+
+/Bir kullanıcı arayacak bir program yazın.
+
+// Yalnızca 2 kullanıcınız olduğunu varsayalım: Max Payne ve Alan Wake. İlk olarak, kullanıcıdan tam adını girmesini isteyin. Ekran mesajı: "Tam adı girin:". Ardından kullanıcıdan girdi alın. Ad, "Max Payne" veya "Alan Wake"e eşitse, şu mesajı görüntüleyin: "Kullanıcı bulundu!". Aksi takdirde, şu mesajı görüntüleyin: "Kullanıcı bulunamadı!". _`Lütfen arama durumunuzu duyarsız hale getirin!`_
+
+//        Örnek:
+// Ekran mesajı: Tam adı girin:
+
+
+// giriş: Maks Payne
+`
+// Ekran mesajı: Kullanıcı bulundu!
+
+*************************************************
+
+soru 3
+
+//Metnin (string) uzunluğunu çıkaracak bir program yazın.
+       Örnek:
+```
+// Ekran mesajı: "Lütfen metni girin:"
+
+// giriş: java
+
+// Ekran mesajı: "Uzunluk: 4"
+
+
+**************************************
+
+soru 4
+
+// Kelimenin ilk karakterini yazdıracak bir program yazın.
+
+// Girdi: zıpla
+
+// Çıktı: j
+
+
+soru 5
+
+// Kelimenin (string) son harfini yazdıracak bir program yazın.
+
+//        Eski:
+
+// Girdi: java
+
+// Çıktı: bir
+
+
+***************************************
+
+Soru 6
+
+//İlk ve son harfleri birlikte yazdıracak bir program yazın.
+
+// Girdi: adobe
+// Çıktı: ae
+
+
+*************************
+
+soru 7
+
+/*Bir sözünüz var, şunları yapın:
+//```
+//
+// ```
+// javav ==> v
+// ```
+//
+// - **Tek karakter, o karakteri 3 kez yazdır**
+//
+// ```
+// # ==> ###
+// ```
+//
+// ```
+// q ==> qqq
+// ```
+//
+// 2. Kelime **çift karakter sayısına sahip olduğunda ve**:
+//
+// - **4 veya daha fazla karakter**, ortadaki 2 karakteri yazdır
+//
+// ```
+// java ==> av
+// ```
+//
+// ```
+// elmalar ==> pl
+// ```
+//
+// ```
+// #$%^&* ==> %^
+// ```
+//
+// - **2 karakter,** bu 2 karakteri iki kez yazdır
+//
+// ```
+//@@ ==>@@@@
+//```
+//
+// ```
+// $$ ==>$$$$
+// ```
+//
+// ```
+// merhaba ==> merhaba
+// ```
+
+****************************
+
+soru 8
+
+//You have 2 words
+//
+//        Print the first word, second word, second word, first word
+//
+//        ```
+//        Input:
+//
+//        one
+//
+//        two
+//        ```
+//
+//        ```
+//        Output:
+//
+//        onetwotwoone
+//        ```
+
+
+soru 9
+
+// 2 kelimen var
+//
+// İlk kelimeyi, ikinci kelimeyi, ikinci kelimeyi, ilk kelimeyi yazdır
+//
+// ```
+// Giriş:
+//
+//        bir
+//
+//        iki
+// ```
+//
+// ```
+//        Çıktı:
+//
+// birtwotwoone
+// ```
+
+*******************
+
+soru 10
+
+ 2 kelimeniz var, her ikisi de 3 karakterden oluşuyor.
+
+ Bunlardan herhangi biri tam olarak 3 karaktere sahip değilse, "birleştirilemez" yazdırın
+
+ Karakterlerinin harflerini 1 harf birinden 1 harf digerinden olacak sekilde birleştirin
+ ve aşağıdaki gibi birlikte yazdırın:
+
+
+Input: aok
+       lol
+
+       Output:
+       alookl
+
+      Input:
+       ear
+       pie
+
+       Output:
+       epaire
+
+     ipucu:
+  karakterlerin arasına +""+ (empty string (bos dize)) ekleyerek, karakter değerlerini birleştirebilirsiniz._
